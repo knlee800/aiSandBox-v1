@@ -1,0 +1,11 @@
+{
+  "auth": {
+    "invalidCredentials": "无效的凭证",
+    "userNotFound": "找不到用户",
+    "incorrectPassword": "密码错误",
+    "emailRequired": "电子邮件为必填项",
+    "passwordRequired": "密码为必填项",
+    "loginSuccess": "登录成功",
+    "serverError": "内部服务器错误"
+  }
+}

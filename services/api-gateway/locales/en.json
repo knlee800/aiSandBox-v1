@@ -1,0 +1,11 @@
+{
+  "auth": {
+    "invalidCredentials": "Invalid credentials",
+    "userNotFound": "User not found",
+    "incorrectPassword": "Incorrect password",
+    "emailRequired": "Email is required",
+    "passwordRequired": "Password is required",
+    "loginSuccess": "Login successful",
+    "serverError": "Internal server error"
+  }
+}

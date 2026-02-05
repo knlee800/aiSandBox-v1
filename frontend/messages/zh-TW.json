@@ -1,0 +1,34 @@
+{
+  "login": {
+    "title": "AI 沙盒",
+    "email": "電子郵件",
+    "password": "密碼",
+    "loginButton": "登入",
+    "loggingIn": "登入中...",
+    "invalidCredentials": "無效的憑證",
+    "loginFailed": "登入失敗",
+    "testCredentials": "測試憑證"
+  },
+  "sandbox": {
+    "files": "檔案",
+    "noFiles": "尚無檔案",
+    "noFileSelected": "未選擇檔案",
+    "chatWithAI": "與 AI 對話",
+    "typeMessage": "輸入訊息...",
+    "send": "發送",
+    "save": "儲存",
+    "logout": "登出",
+    "thinking": "思考中...",
+    "fileSaved": "檔案已成功儲存！",
+    "fileSaveFailed": "檔案儲存失敗",
+    "askMeToCreate": "請我建立檔案、撰寫程式碼，或協助你的專案！",
+    "errorProcessing": "抱歉，處理你的請求時發生錯誤。",
+    "session": "工作階段",
+    "loadingOlderMessages": "載入較舊的訊息..."
+  },
+  "languages": {
+    "en": "English",
+    "zh-TW": "繁體中文",
+    "zh-CN": "简体中文"
+  }
+}

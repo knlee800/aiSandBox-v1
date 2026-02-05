@@ -1,0 +1,30 @@
+{
+  "name": "aisandbox",
+  "version": "0.1.0",
+  "private": true,
+  "description": "AI-powered coding sandbox platform",
+  "workspaces": [
+    "services/*",
+    "packages/*",
+    "frontend"
+  ],
+  "scripts": {
+    "dev": "docker-compose up",
+    "dev:build": "docker-compose up --build",
+    "down": "docker-compose down",
+    "db:reset": "docker-compose down -v && docker-compose up -d postgres && sleep 5 && npm run db:migrate",
+    "db:migrate": "docker-compose exec -T postgres psql -U aisandbox -d aisandbox -f /schema/schema.sql",
+    "db:test": "node database/test-connection.js",
+    "clean": "docker-compose down -v && rm -rf node_modules services/*/node_modules packages/*/node_modules frontend/node_modules"
+  },
+  "engines": {
+    "node": ">=20.0.0",
+    "npm": ">=10.0.0"
+  },
+  "author": "AI Sandbox Platform Team",
+  "license": "MIT",
+  "dependencies": {
+    "better-sqlite3": "^12.5.0",
+    "pg": "^8.16.3"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "login": {
+    "title": "AI Sandbox",
+    "email": "Email",
+    "password": "Password",
+    "loginButton": "Login",
+    "loggingIn": "Logging in...",
+    "invalidCredentials": "Invalid credentials",
+    "loginFailed": "Login failed",
+    "testCredentials": "Test credentials"
+  },
+  "sandbox": {
+    "files": "Files",
+    "noFiles": "No files yet",
+    "noFileSelected": "No file selected",
+    "chatWithAI": "Chat with AI",
+    "typeMessage": "Type your message...",
+    "send": "Send",
+    "save": "Save",
+    "logout": "Logout",
+    "thinking": "Thinking...",
+    "fileSaved": "File saved successfully!",
+    "fileSaveFailed": "Failed to save file",
+    "askMeToCreate": "Ask me to create files, write code, or help with your project!",
+    "errorProcessing": "Sorry, there was an error processing your request.",
+    "session": "Session",
+    "loadingOlderMessages": "Loading older messages..."
+  },
+  "languages": {
+    "en": "English",
+    "zh-TW": "繁體中文",
+    "zh-CN": "简体中文"
+  }
+}

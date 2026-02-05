@@ -1,0 +1,11 @@
+{
+  "auth": {
+    "invalidCredentials": "無效的憑證",
+    "userNotFound": "找不到使用者",
+    "incorrectPassword": "密碼錯誤",
+    "emailRequired": "電子郵件為必填項目",
+    "passwordRequired": "密碼為必填項目",
+    "loginSuccess": "登入成功",
+    "serverError": "內部伺服器錯誤"
+  }
+}
